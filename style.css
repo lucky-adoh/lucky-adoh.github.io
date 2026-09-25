@@ -81,3 +81,26 @@
         height: 210px;
     }
 }
+
+
+/* Conference and research badge collection */
+.badge-collection {
+    width: min(100%, 640px);
+    margin: 20px auto;
+    text-align: center;
+}
+
+.badge-collection img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 640px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.badge-collection figcaption {
+    margin-top: 8px;
+    font-size: 0.85rem;
+    color: #52677d;
+}
